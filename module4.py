@@ -16,6 +16,6 @@ for i in range(N):
 X = get_valid_input("Enter the number X to search: ")
 
 if X in numbers:
-    print(numbers.index(X))  
+    print(numbers.index(X)+1)  
 else:
     print(-1)
